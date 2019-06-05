@@ -88,7 +88,7 @@ class RawListThumbnailFile extends BaseFile {
       if (!isRenaming && !isDeleting) {
         modified = (
           <span className="modified">
-            Last modified: {Moment(this.props.modified).fromNow()}
+            Modificado: {Moment(this.props.modified).fromNow()}
           </span>
         )
       }
